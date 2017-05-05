@@ -12,7 +12,7 @@ import org.slf4j.LoggerFactory;
  */
 public class MyCacheManagerEventListener implements CacheManagerEventListener{
     private final CacheManager cacheManager;
-    Logger logger= LoggerFactory.getLogger(com.ssnakeTech.qrisk.listener.MyCacheManagerEventListener.class);
+    Logger logger= LoggerFactory.getLogger(MyCacheManagerEventListener.class);
     public MyCacheManagerEventListener(CacheManager cacheManager){
         this.cacheManager=cacheManager;
     }
