@@ -116,7 +116,7 @@ public class User implements Serializable {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
 
-        com.ssnakeTech.qrisk.entity.User user = (com.ssnakeTech.qrisk.entity.User) o;
+        User user = (User) o;
 
         if (id != null ? !id.equals(user.id) : user.id != null) return false;
 

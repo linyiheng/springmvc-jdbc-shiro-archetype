@@ -11,7 +11,7 @@ import org.slf4j.LoggerFactory;
  * Created by leo on 2017/2/24.
  */
 public class MyCacheEventListener implements CacheEventListener {
-    Logger logger= LoggerFactory.getLogger(com.ssnakeTech.qrisk.listener.MyCacheEventListener.class);
+    Logger logger= LoggerFactory.getLogger(MyCacheEventListener.class);
     @Override
     public void notifyElementRemoved(Ehcache ehcache, Element element) throws CacheException {
         StringBuilder strBuilder=new StringBuilder("EhCache element removed "+ehcache.getName()+" ");

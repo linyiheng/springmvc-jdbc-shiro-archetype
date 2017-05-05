@@ -108,7 +108,7 @@ public class Resource implements Serializable {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
 
-        com.ssnakeTech.qrisk.entity.Resource resource = (com.ssnakeTech.qrisk.entity.Resource) o;
+        Resource resource = (Resource) o;
 
         if (id != null ? !id.equals(resource.id) : resource.id != null) return false;
 

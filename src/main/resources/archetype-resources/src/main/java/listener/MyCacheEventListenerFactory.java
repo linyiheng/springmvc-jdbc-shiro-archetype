@@ -11,6 +11,6 @@ import java.util.Properties;
 public class MyCacheEventListenerFactory extends CacheEventListenerFactory {
     @Override
     public CacheEventListener createCacheEventListener(Properties properties) {
-        return new com.ssnakeTech.qrisk.listener.MyCacheEventListener();
+        return new MyCacheEventListener();
     }
 }

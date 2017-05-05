@@ -101,7 +101,7 @@ public class Role implements Serializable {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
 
-        com.ssnakeTech.qrisk.entity.Role role = (com.ssnakeTech.qrisk.entity.Role) o;
+        Role role = (Role) o;
 
         if (id != null ? !id.equals(role.id) : role.id != null) return false;
 
